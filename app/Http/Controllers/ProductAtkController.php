@@ -2,7 +2,7 @@
 use App\Models\ProductAtk;
 use Illuminate\Http\Request;
 
-class ProductAtkController extends Controller
+class ProductAtkController extends Controller 2
 {
     public function index()
     {
