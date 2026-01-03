@@ -1,0 +1,39 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.table th, .table td {
+  padding: 40px;
+  border-bottom: 1px solid #eee;
+}
+.table th {
+  background: #f3f4f6;
+  font-weight: 700;
+}
+.empty {
+  text-align: center;
+  color: var(--muted);
+  padding: 24px;
+}
+
+.summary {
+    display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.btn.btn-accent {
+    background-color: #2563eb; /* biru seperti tombol "Selesai" */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
