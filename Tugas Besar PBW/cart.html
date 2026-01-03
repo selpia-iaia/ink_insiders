@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart — Inksiders</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <div class="logo"><a href="index.html">Inksiders</a></div>
+    <nav class="nav">
+      <ul>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="bundles.html">Bundles</a></li>
+        <li><a href="limited.html">Limited Editions</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="actions">
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html" aria-current="page">🛒 Cart</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section">
+    <h2>Keranjang belanja</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Produk</th>
+          <th>Harga</th>
+          <th>Qty</th>
+          <th>Subtotal</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="cart-body">
+        <!-- Items rendered by JS -->
+      </tbody>
+    </table>
+  </section>
+
+  <section class="section">
+    <div class="summary">
+      <div class="summary-row">
+        <span>Total</span>
+        <strong id="cart-total">Rp 0</strong>
+      </div>
+      <p class="muted">Gratis ongkir di atas Rp 500.000.</p>
+      <a href="checkout.html" class="btn btn-accent" id="checkout-btn">Checkout</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <h4>Inksiders</h4>
+        <p class="muted">ATK premium untuk produktivitas harian.</p>
+      </div>
+      <div>
+        <h4>Bantuan</h4>
+        <p><a href="faq.html">FAQ</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a href="sustainability.html">Sustainability</a></p>
+      </div>
+      <div>
+        <h4>Sosial</h4>
+        <p><a href="#">Instagram</a></p>
+        <p><a href="#">TikTok</a></p>
+        <p><a href="#">LinkedIn</a></p>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 Inksiders. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="javascript/main.js"></script>
+<script src="javascript/cart.js"></script>
+
+</body>
+</html>

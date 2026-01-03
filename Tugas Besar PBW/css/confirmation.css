@@ -1,0 +1,45 @@
+.summary {
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+}
+.summary .total {
+  font-weight: 800;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 8px;
+  transition: background 0.2s ease;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #004080;
+  color: #004080;
+}
+
+.btn-outline:hover {
+  background: #004080;
+  color: #fff;
+}
+
+.btn-primary {
+  background: #004080;
+  color: #fff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #003060;
+}
